@@ -18,4 +18,5 @@
 -keep class com.pichillilorenzo.flutter_inappwebview_android.** { *; }
 
 # This is generated automatically by the Android Gradle plugin.
--dontwarn android.window.BackEvent-keep class com.pichillilorenzo.flutter_inappwebview_android.** { *; }
+-dontwarn android.window.BackEvent
+-keep class com.pichillilorenzo.flutter_inappwebview_android.** { *; }
