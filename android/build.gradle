@@ -23,7 +23,8 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 33
-
+    namespace 'com.pichillilorenzo.flutter_inappwebview'
+    
     defaultConfig {
         minSdkVersion 17
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
